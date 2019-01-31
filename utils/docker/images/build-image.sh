@@ -44,8 +44,8 @@ set -e
 function usage {
 	echo "Usage:"
 	echo "    build-image.sh <OS-VER>"
-	echo "where <OS-VER>, for example, can be 'ubuntu-16.04', provided " \
-		"a Dockerfile named 'Dockerfile.ubuntu-16.04' exists in the " \
+	echo "where <OS-VER>, for example, can be 'ubuntu-18.04', provided " \
+		"a Dockerfile named 'Dockerfile.ubuntu-18.04' exists in the " \
 		"current directory."
 }
 
